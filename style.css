@@ -1,0 +1,123 @@
+body {
+	font-family:Arial,Helvetica;
+	background-color:black;
+	color: magenta;
+}
+        
+input.titlefont, h1 {
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color:Black;
+	border: medium double #06CEF9;
+	background: linear-gradient(to right, orange , #7CFC00);
+	font-size:36px;
+    width:175px;
+    text-align: center;
+    margin:0;
+}
+.gameweek {
+		border: 5px solid white;
+}
+ul.CoolmathgamesWebsites1 a {
+		background-color: orange;
+  	transition: background-color 0s;
+}
+ul.CoolmathgamesWebsites2 a {
+		transition: background-color 2s;
+		background-color: black;
+}
+h3 {
+    text-align:center;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	color:Black;
+	border: medium double #06CEF9;
+	background: linear-gradient(to right, orange , #7CFC00);
+	width:150px;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:20px;
+}
+ul {
+	font-weight:bold;
+}
+body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+.RPO {
+    background-color: white;
+    border: none;
+    color: gray;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    font-family: georgia;
+}
+a {
+	color: magenta;
+    text-decoration: none;
+}
+.backButton {
+  background-color: #E245DC;
+  color: white;
+  padding:16px;
+  font-size: 20px;
+  border: none;
+}
+.backButton:hover {
+  background-color: #c43cbf;
+}
+.w3-btn, .w3-button{
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+        
+.img-container {
+    width:33.3%;
+  	float: left;
+}
+        
+.clearfix::after {
+    clear: both;
+    display: table;
+}
+        
+* {
+    box-sizing: border-box;
+}
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.85); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: grab; /* Add a pointer on hover */
+}
+#text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
