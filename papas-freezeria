@@ -1,0 +1,15 @@
+  
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="Afavicon.ico" type="image/x-icon"/>
+    <title>Papa's Freezeria</title>
+  </head>
+  <body>
+  <div class="game">
+  <iframe width="640px" height="480px" src="https://www.coolmath-games.com/gameFrame?u=sites/cmatgame/files/games/papasfreezeria_coolmath.swf&f=papasfreezeria_coolmath.swf"></iframe>
+  </div>
+  </body>
+</html>
