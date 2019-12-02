@@ -44,10 +44,10 @@ body {
     transition: 1s opacity;
 }
 .game {
-	top: 50%;
-	bottom: 50%;
-	left: 50%;
-	right: 50%;
+	margin-top: 50%;
+	margin-bottom: 50%;
+	margin-left: 50%;
+	margin-right: 50%;
 }
 body.fade-out {
     opacity: 0;
